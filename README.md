@@ -10,6 +10,8 @@ The Python script utilizes the power of the OpenCV library to access your device
 
 The code starts by initializing the camera capture, and it then presents you with a live video feed. The recording and the image saving will happen automatically. The frames will keep on generating till the program runs.
 
+For a detailed explanation of the code, feel free to visit my blog by [Clicking Here](https://medium.com/@bakshi.agnik/generating-frames-of-a-video-using-python-1c90193df9dd)
+
 ## 3. How to Run the Code
 
 To run the video capture and frame extraction program, follow these steps:
