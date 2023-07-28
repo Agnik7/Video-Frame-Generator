@@ -4,9 +4,9 @@ import cv2
 cap = cv2.VideoCapture(0)
 
 # Defining the codec and creating the VideoWriter object
-fourcc = cv.VideoWriter_fourcc(*'XVID')
+fourcc = cv2.VideoWriter_fourcc(*'XVID')
 file_name = 'output'
-output = cv.VideoWriter((file_name+'.avi'), fourcc, 24.0, (640,  480))
+output = cv2.VideoWriter((file_name+'.avi'), fourcc, 24.0, (640,  480))
 
 # Defining the variables save and c
 save = 'Frame1'
